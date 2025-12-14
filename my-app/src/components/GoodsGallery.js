@@ -7,37 +7,37 @@ function GoodsGallery() {
             id: 1,
             name: "Apple",
             price: 15,
-            imgSrc: "/img/apple.png",
+            imgSrc: `${process.env.PUBLIC_URL}/img/apple.png`,
         },
         {
             id: 2,
             name: "Pear",
             price: 20,
-            imgSrc: "/img/pear.png",
+            imgSrc: `${process.env.PUBLIC_URL}/img/pear.png`,
         },
         {
             id: 3,
             name: "Grape",
             price: 25,
-            imgSrc: "/img/grape.png",
+            imgSrc: `${process.env.PUBLIC_URL}/img/grape.png`,
         },
         {
             id: 4,
             name: "Peach",
             price: 18,
-            imgSrc: "/img/peach.png",
+            imgSrc: `${process.env.PUBLIC_URL}/img/peach.png`,
         },
         {
             id: 5,
             name: "Banana",
             price: 17,
-            imgSrc: "/img/banana.png",
+            imgSrc: `${process.env.PUBLIC_URL}/img/banana.png`,
         },
         {
             id: 6,
             name: "Orange",
             price: 19,
-            imgSrc: "/img/orange.png",
+            imgSrc: `${process.env.PUBLIC_URL}/img/orange.png`,
         },
     ];
 
